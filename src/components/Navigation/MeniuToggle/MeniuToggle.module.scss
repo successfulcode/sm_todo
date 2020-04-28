@@ -1,0 +1,17 @@
+.MeniuToggle {
+    position: fixed;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+    transition: opacity, left .22s ease-in;
+    z-index: 1003;
+  
+        :hover {
+        opacity: .7;
+    }
+}
+
+.open {
+    left: 260px;
+}

@@ -1,0 +1,44 @@
+.ListItem {
+    color: green;
+    font-size: 1.3rem;
+    font-weight: normal;
+    word-wrap: break-word;
+    span{
+        cursor: pointer;
+        user-select: none;
+    }
+    button{
+    margin-right: .3rem;
+    width: 35px;
+      }
+      .done {
+        text-decoration: line-through;
+      }
+      .date{
+        font-size: .9rem;
+        font-style: italic;
+        text-decoration: none;
+      }
+}
+
+.done {
+    text-decoration: line-through;
+  }
+  
+.important  {
+  font-weight: bold;
+    color: red;
+  }
+  @media (max-width: 770px) {
+    .ListItem {
+      font-size: 0.9rem;
+      word-wrap: break-word;
+      button{
+        margin-right: 2px;
+        width: 35px;
+          }
+          span{
+           padding: 0px;
+        }
+}
+}

@@ -1,0 +1,32 @@
+
+.mainFormDIv {
+    display: 'flex';
+    justify-content: 'center'; 
+    >div{
+        padding: 1rem;
+        width: 100%; 
+        background-color: rgb(255,255,255, 0.5); 
+    }
+    form {
+        display: inline-flex;
+    }
+    input{
+        width: 100%;
+     }
+     button {
+         margin-left: .5rem;
+         width: 30%;
+     }
+}
+
+@media (max-width: 770px) {
+    .mainFormDIv {
+        margin-bottom: 10px;
+              >div{
+            padding: 10px;
+        }
+        form {
+            margin: 0px;
+        }
+    }
+}

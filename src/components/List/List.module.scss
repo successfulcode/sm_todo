@@ -1,0 +1,16 @@
+
+.List{
+height: 100%;
+}
+
+h2 {
+    color: red;
+} 
+
+@media (max-width: 770px) {
+    .List{
+li{
+    padding: 3px;
+}
+}
+}

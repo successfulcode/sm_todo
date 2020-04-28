@@ -1,0 +1,34 @@
+.ModalAlert {
+    display: block;
+    width: 500px;
+    top: 31%;
+    left: 35%;
+    font-family: 'Arial, Helvetica, sans-serif';
+
+    >div{
+        max-width: 20rem;
+    }
+    button {
+        margin-right: .5rem;
+        width: 4rem;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+.buttonsDiv {
+    text-align: center;
+}
+
+@media (max-width: 770px) {
+    .ModalAlert {
+        width: 200px;
+        top: 31%;
+        left: 25%;
+
+        h1{
+            margin: 0;
+        }
+    }
+}

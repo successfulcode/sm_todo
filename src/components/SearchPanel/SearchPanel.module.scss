@@ -1,0 +1,18 @@
+.SearchPanel{
+    margin: 1rem 0;
+    background:rgb(255,255,255, 0.5);
+    input {
+    flex-grow: 1;
+    margin-right: 3px;
+    } 
+}
+
+@media (max-width: 770px) {
+    .SearchPanel{
+        margin: 2px;
+width: 100%;
+        input {
+        padding: 0px;
+        }    
+}
+}

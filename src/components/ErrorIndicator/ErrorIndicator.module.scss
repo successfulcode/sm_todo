@@ -1,0 +1,15 @@
+.ErrorIndicator{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f74435;
+    padding: 1rem;
+    img {
+        margin-bottom: 1rem;
+        width: 22rem;
+      }
+      span {
+        font-size: 1.7rem;
+      }
+}
