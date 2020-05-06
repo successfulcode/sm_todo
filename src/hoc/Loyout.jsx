@@ -30,27 +30,34 @@ class Loyout extends Component {
 
         const { isAuth, logout } = this.props
 
+        let config = {
+            position: 'all'
+        }
+
         return (
-            <div className='container'>
-                < ParticlesBg type='circle' bg={true} style={{ height: '100vh' }} />
-                <div className={classes.Loyout} >
-                    <br />
-                    <Drawer isOpen={this.state.navigationIisOpen}
-                        onClose={this.navigationCloseHandler}
-                        isAuth={isAuth}
-                    />
-                    <MeniuToggle
-                        onToggle={this.toggleNavigationHandler}
-                        isOpen={this.state.navigationIisOpen}
-                    />
-                    <ButtonLogInOut
-                        isAuth={isAuth}
-                        logout={logout}
-                        resetState={this.props.resetState}
-                    />
-                    <main className='container' >
-                        {this.props.children}
-                    </main>
+            <div>
+                < ParticlesBg type='circle' bg={true} config={config} />
+                <div className='container' >
+
+                    <div className={classes.Loyout} >
+                        <br />
+                        <Drawer isOpen={this.state.navigationIisOpen}
+                            onClose={this.navigationCloseHandler}
+                            isAuth={isAuth}
+                        />
+                        <MeniuToggle
+                            onToggle={this.toggleNavigationHandler}
+                            isOpen={this.state.navigationIisOpen}
+                        />
+                        <ButtonLogInOut
+                            isAuth={isAuth}
+                            logout={logout}
+                            resetState={this.props.resetState}
+                        />
+                        <main className='container' >
+                            {this.props.children}
+                        </main>
+                    </div>
                 </div>
             </div>
         )
