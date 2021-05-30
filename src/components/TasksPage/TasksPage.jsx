@@ -5,7 +5,6 @@ import List from '../List/List';
 import AddItem from '../AddItem/AddItem';
 import SearchPanel from '../SearchPanel/SearchPanel';
 import ItemStatusFilter from '../ItemStatusFilter/ItemStatusFilter';
-// import Paginator from '../Paginator/Paginator';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
@@ -22,7 +21,6 @@ const TasksPage = ({ isAuth }) => {
                 <div><ItemStatusFilter /></div>
             </div>
             <List />
-            {/* <Paginator /> */}
         </div>
     );
 };
