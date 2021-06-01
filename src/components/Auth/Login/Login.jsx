@@ -132,8 +132,7 @@ class Login extends React.Component {
                         </h1>
                         <form onSubmit={this.submitHandler} >
                             {this.renderInputs()}
-
-                            {/* Autharization error message */}
+                            
                             {authError &&
                                 <div className='alert alert-dismissible alert-danger'>
                                     {authError}
