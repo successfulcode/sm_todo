@@ -1,7 +1,8 @@
 import * as axios from "axios";
 
 const instance = axios.create({
-   baseURL : process.env.REACT_APP_BASE_URL
+//    baseURL : process.env.REACT_APP_BASE_URL
+   baseURL : `https://sm-todo-app.firebaseio.com/myTodo`
 })
 
 export const tasksAPI = {
