@@ -9,7 +9,7 @@ import HrWithCentedText from '../HrWithCentedText/HrWithCentedText';
 
 class Login extends React.Component {
   state = {
-    isFormValid: false,
+    isFormValid: true,
     formControls: {
       email: {
         value: 'test@test.lt',
@@ -25,7 +25,7 @@ class Login extends React.Component {
         },
       },
       password: {
-        value: '123456',
+        value: 'Test123456',
         type: 'password',
         autocomplete: 'current - password',
         label: 'Slaptažodis',
