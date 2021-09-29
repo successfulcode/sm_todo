@@ -6,3 +6,5 @@ React.js, Redux, Firebase, Axios, Redux-Thunk, Bootstrap
 
 ## Live preview
 https://sm-todo.netlify.app/Login
+
+<img width="683" alt="todo2" src="https://user-images.githubusercontent.com/56683358/135342240-a2943645-15be-4c38-bef0-efa43aca4ac8.png">
